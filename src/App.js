@@ -34,7 +34,7 @@ function App() {
     setValidationStates({...validationStates, passwordState: isValidPassword});
   }
     
-);
+  );
  
   const handleSelectChange = ((e) => {
     setFormValues({...formValues, favClass: e.target.value})
